@@ -9,11 +9,18 @@
   text-align: center;
   color: #FFFFFF;
   margin: 56px auto 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .lead__title {
+      margin-top: 48px;
+  }
 }
 
 @media screen and (max-width: 999px) {
   .lead__title {
-      margin: 0 24px 0 24px;
+      margin: 48px 24px 0 24px;
   }
 }
 
@@ -22,6 +29,7 @@
       max-width: 288px;
       font-size: 40px;
       line-height: 44px;
-      margin: 0 auto;
+      margin: 48px 16px 0 16px;
   }
 }
+

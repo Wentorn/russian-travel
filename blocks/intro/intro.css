@@ -1,28 +1,22 @@
 .intro {
   font-family: 'Inter', Arial, sans-serif;
-  margin-left: 148px;
+  margin: 92px 0 0 148px;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1100px) {
   .intro {
-    margin: 92px 148px 0;
+    margin: 92px 0 0 48px;
   }
 }
 
 @media (max-width: 999px) {
   .intro {
-    margin: 92px 48px 0;
+    margin: 88px 0 0 24px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   .intro {
-    margin: 88px 24px 0;
-  }
-}
-
-@media (max-width: 470px) {
-  .intro {
-    margin: 64px 16px 0;
+    margin: 64px 0 0 16px;
   }
 }
