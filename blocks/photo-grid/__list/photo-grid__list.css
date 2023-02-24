@@ -6,16 +6,9 @@
   margin: auto;
 }
 
-.photo-grid__list-item {
-  list-style-type: none;
-  overflow: clip;
-  overflow-clip-margin: content-box;
-}
-
 @media screen and (max-width: 567px){
   .photo-grid__list {
       grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(12, 1fr);
       gap: 12px;
   }
 }
