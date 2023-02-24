@@ -6,8 +6,8 @@
   margin-right: 18px;
 }
 
-.header__lang-link_active {
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 568px){

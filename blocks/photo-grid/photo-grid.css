@@ -1,7 +1,6 @@
 .photo-grid {
   display: flex;
   max-width: 1184px;
-  max-height: 671px;
   margin-top: 92px;
 }
 
